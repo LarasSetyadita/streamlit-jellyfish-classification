@@ -7,7 +7,7 @@ st.set_page_config(layout='wide')
 
 # load css file
 st.markdown(
-    '<link rel="stylesheet" href="css/style.css">',
+    '<link rel="stylesheet" href="/css/style.css">',
     unsafe_allow_html=True
 )
 
@@ -18,6 +18,7 @@ def main():
 
     st.markdown('<h1 class="page-title">🌊 Jellyfish Classification Dashboard 🪼</h1>', unsafe_allow_html=True)
     st.write('hello world')
+    st.markdown('<hr class="custom-divider">', unsafe_allow_html=True)
 
 #########################
 # menjalankan kode main #
